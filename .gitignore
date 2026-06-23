@@ -1,0 +1,6 @@
+attendance_env/
+__pycache__/
+*.db
+*.mp4
+labeled_dataset/
+raw_photos/
