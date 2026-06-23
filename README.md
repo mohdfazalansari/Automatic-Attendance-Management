@@ -1,4 +1,4 @@
-# Automatic-Attendance-Management
+# Automatic-Attendance-Management System
 Created attendance system that automatically identifies student, assign timer to each student and when student is present for 80% of time it will marks present automatically and else marks absents.
 When student will left the frame it will stop timer and will continue timer from same time person return to frame.
 
@@ -9,12 +9,9 @@ This setup uses OpenCV to access your webcam directly and pop open a native wind
 1. System Requirements & Prerequisites
 Before running the ML script, ensure the host machine has the following installed:
 
-
 Python: Installed on your system.
 
-
 Webcam: A built-in laptop camera or external USB webcam.
-
 
 Hardware: A machine with a dedicated NVIDIA GPU (using CUDA) is highly recommended for smooth real-time tracking.
 
@@ -32,8 +29,8 @@ Once your terminal shows (attendance_env) at the start of the line, install only
 
 Install the core Machine Learning libraries by running:
 
-PowerShell
-pip install tensorflow keras-facenet mtcnn opencv-python deep-sort-realtime scipy
+PowerShell-
+pip install tensorflow keras-facenet mtcnn opencv-python deep-sort-realtime scipy.
 
 Crucial Deep SORT Fix: Newer versions of Python are missing a core module required by Deep SORT. Fix this by forcing the installation of setuptools directly into your environment.
 
@@ -53,10 +50,9 @@ Ensure your terminal still shows (attendance_env).
 
 Run your standalone tracking script by executing:
 
-PowerShell
+PowerShell-
 python tracker_test_v2.py
 
 Instant Feedback: Bypassing the network means your cv2.imshow() window will open and render exactly as fast as your CPU/GPU processes the frames.
 
 Operation: Follow the on-screen prompts (e.g., pressing 's' to start the attendance timer if you implemented the pending state), and press 'q' when you are ready to cleanly quit the camera window and print your final terminal attendance report.
-
