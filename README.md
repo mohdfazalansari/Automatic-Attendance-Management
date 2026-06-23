@@ -4,7 +4,7 @@ When student will left the frame it will stop timer and will continue timer from
 
 # Automatic Facial Attendance System: Setup & User Guide
 Local ML Model: Setup & User Guide
-This setup uses OpenCV to access your webcam directly and pop open a native window on your desktop to display the real-time Face Detection, Recognition, and Deep SORT tracking.
+This setup uses OpenCV to access your webcam  directly and pop open a native window on your desktop to display the real-time Face Detection, Recognition, and Deep SORT tracking.
 
 1. System Requirements & Prerequisites
 Before running the ML script, ensure the host machine has the following installed:
